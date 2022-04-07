@@ -1,0 +1,149 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.header{
+    
+    display: flex;
+    padding-top: 20px;
+    padding-left: 39px;
+    height: 58px;  
+    
+}
+.header img{
+    width: 108px;
+    aspect-ratio: auto 116 / 58;
+    height: 55px;
+}
+.header-middle{
+    padding-left: 175px;
+    width: 630px;
+    gap: 40px;
+    display: flex; 
+}
+.selection{
+    border: none;
+    color: #5b5b5b;
+}
+.header-end{
+    display: flex;
+    gap: 40px;
+    color: #5b5b5b;
+    font-size: 11px;
+    line-height: 60px;
+}
+
+.section1{
+    line-height: 25px;
+    color: #5b5b5b;
+    padding-top: 120px;
+    padding-left: 30px;
+    height: 525px;
+    background-image: url(images/Bentayga\ Speed\ 1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.button1{
+    background-color: rgb(51, 99, 64);
+    color: aliceblue;
+    width: 300px;
+    height: 40px;
+}
+.button2{
+    background-color: Transparent;
+    color: aliceblue;
+    border: 2px solid white;
+    width: 300px;
+    height: 40px;
+}
+
+
+
+.section2{
+    display: flex;
+}
+.images1 {
+    /* float: left; */
+    background-image: url(images/ownership.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250x;
+    padding: 0px;
+  }
+  .images2 {
+    /* float: left; */
+    background-image: url(images/pre-owned.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    padding: 0px;
+  }
+  .link{
+    width: 130px;
+    height: 34px;
+
+    
+    
+    background-color: rgb(234, 234, 241);
+    
+  }
+  .linka{
+      padding: 10px 15px;
+    position: absolute;
+    color: #333;
+    text-decoration: none;
+  }
+
+
+
+ 
+
+.section3{
+    background-color: aqua;
+    display: flex;
+}
+.sctn{
+    background-color: #d8d9dc;
+    width: 4%;
+    
+    
+}
+.sctn1{
+    height: 120px;
+    background-color: #d8d9dc;
+    width: 23%;
+    align-items: center;
+    border: 0.7px solid rgb(199, 199, 199);
+    text-align: center;
+}
+
+.section4{
+    padding-left: 25px;
+  
+    display: flex;
+}
+.section4con{
+    padding-top: 30px;
+    width: 25%;
+}
+.section4con a{
+    color: #5b5b5b;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 13px;
+}
+.heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.section5{
+    padding-top: 30px;
+    display: flex;
+}
+.fa-brands{
+    color: #5b5b5b;
+    padding-left: 40px;
+}
